@@ -53,3 +53,11 @@ body
   #hidden1{
     display: none;
   }
+
+  .zoom{
+    transition: transform .5s ease-in;
+  }
+
+  .zoom:hover{
+    transform: scale(1.15);
+  }
