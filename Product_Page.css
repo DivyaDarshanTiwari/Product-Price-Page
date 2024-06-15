@@ -31,3 +31,17 @@ body
   {
     margin: 5%;
   }
+
+
+  .readmore {
+    cursor: pointer;
+  }
+  
+  .readmore:hover {
+    background-color: #304ea96c;
+    border-radius: 10px;
+  }
+  .d-none {
+    display: none !important;
+  }
+  
