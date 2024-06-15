@@ -1,8 +1,14 @@
-function show() {
-    let body = document.getElementById("hidden");
-    body.classList.toggle("d-none");
-    let readMoreText = document.getElementById("read-more-text");
-    readMoreText.textContent = body.classList.contains("d-none") ? "Read More" : "Read Less";
+function myFunction() {
+    var moreText = document.getElementById("hidden");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
   }
   
   function show2() {
