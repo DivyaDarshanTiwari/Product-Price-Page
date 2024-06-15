@@ -1,0 +1,33 @@
+body
+{
+    background-color: #202124;
+    color: aliceblue;
+}
+
+.hero-image {
+    background-image: url("https://img.freepik.com/premium-photo/toy-shopping-cart-with-boxes-blue-background_339191-217.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 40%;
+    color: grey;
+  }
+
+  .Product_Section
+  {
+    margin: 5%;
+  }
